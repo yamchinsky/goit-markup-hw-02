@@ -1,0 +1,87 @@
+:root {
+  --primary-text-color: rgba(0, 0, 0, 0.8);
+  --title-text-color: 000000;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-black-color);
+  font-family: Raleway, Roboto, sans-serif;
+  letter-spacing: 0, 02em;
+}
+
+.logo {
+  color: var(--primary-black-color);
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+
+.logo:active {
+  color: crimson;
+}
+
+.social-link {
+  color: var(--primary-black-color);
+}
+
+.social-link:hover,
+.social-link:focus {
+  color: var(--accent-color);
+}
+
+.social-link:active {
+  color: crimson;
+}
+
+.site-nav {
+  color: var(--primary-black-color);
+}
+
+.site-nav :hover,
+.site-nav :focus {
+  color: var(--accent-color);
+}
+
+.site-nav :active {
+  color: crimson;
+}
+
+.hero {
+  color: var(--primary-black-color);
+}
+
+.hero :hover,
+.hero :focus {
+  color: var(--accent-color);
+}
+
+.hero :active {
+  color: crimson;
+}
+
+.part-logo {
+  color: var(--accent-color);
+}
+
+.button {
+  color: var(--primary-black-color);
+}
+
+.button-highlight :hover,
+.button-highlight :focus,
+.button-highlight :background {
+  color: var(--accent-color);
+}
+
+.button-highlight :active {
+  color: crimson;
+}
+
+ul {
+  list-style: none;
+}
